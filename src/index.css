@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Meie+Script&family=Zeyada&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body{
+  height: 70%;
+  background-image: url("./assets/img/sn.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+
+
+@media (max-width:1200px) and (min-width:120px){
+  body{
+    background-position: left center;
+  }
+}
+@media (max-height:914px) and (min-height:410px){
+  body{
+    background-position: left center;
+  }
+}

@@ -38,10 +38,10 @@ function App(props) {
         <div className="h-screen">
             <>
                 <Header abrirCerrar={toggleOpen}></Header>
-                </>
+            </>
 
         <Routes>
-            <Route path="/" element={(!isSmallScreen || location.pathname === "/") && <Menu />}></Route>
+            <Route path="/" element={<Menu />}></Route>
             <Route path='/Cards' element={<Panel/>}></Route>
         </Routes>
         </div>

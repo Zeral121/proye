@@ -21,7 +21,7 @@ function Menu(){
         </div>
         <div className="flex mt-2 items-center justify-center">
         <h1 className="text-2xl text-stone-300 md:text-6xl font-semibold font-asu ml-6"
-          style={{ textShadow: "0 4px 6px rgba(255, 20, 147, 0.9)" }}>
+          style={{ textShadow: "0 4px 6px rgba(255, 20, 147, 0.8)" }}>
             14 De Febrero
         </h1>
         </div>
@@ -29,16 +29,30 @@ function Menu(){
 
         <div className='flex  items-center mt-1 justify-center sm:text-4xl '>
           <div className="rounded-full ">
-          <img className="h-48 w-48 rounded-full" src={snv1} alt="Imagen" />  
+          <img className="h-48 w-48 rounded-full shadow-[0_8px_16px_0_rgba(255,0,255,0.6)]" src={snv1} alt="Imagen" />  
+          </div>
+        </div>
+
+
+        <div className="flex  flex-col md:flex-row m-8">
+          <div>
+          <p className='flex items-center justify-center m-1'>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia tenetur in quas cupiditate ut quos neque iusto odit quae cum quod esse veniam ipsum id velit, eum sequi tempore accusantium.
+        </p>
+        <p className='flex items-center justify-center m-1'>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia tenetur in quas cupiditate ut quos neque iusto odit quae cum quod esse veniam ipsum id velit, eum sequi tempore accusantium.
+        </p>
+          </div>
+          <div>
+          <p className='flex items-center justify-center m-1'>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia tenetur in quas cupiditate ut quos neque iusto odit quae cum quod esse veniam ipsum id velit, eum sequi tempore accusantium.
+        </p>
+        <p className='flex items-center justify-center m-1'>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia tenetur in quas cupiditate ut quos neque iusto odit quae cum quod esse veniam ipsum id velit, eum sequi tempore accusantium.
+        </p>
           </div>
         </div>
         
-        <p className='flex items-center justify-center m-1'>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia tenetur in quas cupiditate ut quos neque iusto odit quae cum quod esse veniam ipsum id velit, eum sequi tempore accusantium.
-        </p>
-        <p className='flex items-center justify-center m-1'>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia tenetur in quas cupiditate ut quos neque iusto odit quae cum quod esse veniam ipsum id velit, eum sequi tempore accusantium.
-        </p>
         <div className='px-12 flex  items-center mt-3 justify-center sm:text-4xl'>
         <Link to="/Cards" className='p-4 text-black no-underline hover:text-gray-700'>
                     Vamos!

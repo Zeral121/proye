@@ -37,7 +37,7 @@ function App(props) {
     return (
         <div className="h-screen">
             <>
-                <Header abrirCerrar={toggleOpen}></Header>
+                <Header ></Header>
             </>
 
         <Routes>
